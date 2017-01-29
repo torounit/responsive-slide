@@ -1,0 +1,7 @@
+iframe[src*="speakerdeck.com"]::before {
+	content: "!!!";
+}
+
+iframe[src*="speakerdeck.com"] {
+	max-width: 100%;
+}
