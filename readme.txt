@@ -28,7 +28,7 @@ Responsive iframe for embed slideshow.
 
 == Changelog ==
 
-= 0.1.1 =
+= 0.1.2 =
 * Release on WP.org.
 
 
