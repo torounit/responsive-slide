@@ -13,8 +13,6 @@ env:
   - WP_VERSION=latest WP_MULTISITE=0
   - WP_VERSION=4.4 WP_MULTISITE=0
   - WP_VERSION=4.7.2 WP_MULTISITE=0
-  global:
-    - SVN_REPO: https://plugins.svn.wordpress.org/responsive-slide/
 
 matrix:
   include:
