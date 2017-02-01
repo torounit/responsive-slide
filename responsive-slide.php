@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name:     Responsive Slide
  * Plugin URI:      https://github.com/torounit/responsive-slide
@@ -12,12 +11,22 @@
  *
  * @package         Responsive_Slide
  */
+
+/**
+ * Class Responsive_Slide
+ */
 class Responsive_Slide {
 
+	/**
+	 * Responsive_Slide constructor.
+	 */
 	public function __construct() {
 		add_action( 'wp_enqueue_scripts', array( $this, 'wp_enqueue_scripts' ) );
 	}
 
+	/**
+	 * Include CSS and JS.
+	 */
 	public function wp_enqueue_scripts() {
 		wp_enqueue_script(
 			'responsive-slide-js',
@@ -28,7 +37,7 @@ class Responsive_Slide {
 		);
 		wp_enqueue_style(
 			'responsive-slide-css',
-			plugins_url( "assets/responsive-slide.css", __FILE__ ),
+			plugins_url( 'assets/responsive-slide.css', __FILE__ ),
 			array(),
 			filemtime( dirname( __FILE__ ) . '/assets/responsive-slide.css' )
 		);

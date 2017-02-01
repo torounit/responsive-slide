@@ -39,3 +39,5 @@ before_script:
 script:
   - phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
   - phpunit
+
+after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
