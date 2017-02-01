@@ -4,7 +4,7 @@ Donate link: https://blockchain.info/ja/address/3HwkojX2pd9wc5kPFdXnDXMTNbgBmPRy
 Tags:  keynote, powerpoint, ppt, presentation, presentations, slide shows, speakerdeck
 Requires at least: 4.4
 Tested up to: 4.7.2
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
