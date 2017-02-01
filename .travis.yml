@@ -1,5 +1,8 @@
 language: php
 
+global:
+  - SVN_REPO: https://plugins.svn.wordpress.org/responsive-slide/
+
 notifications:
   email:
     on_success: never
