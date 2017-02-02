@@ -4,7 +4,7 @@ Donate link: https://blockchain.info/ja/address/3HwkojX2pd9wc5kPFdXnDXMTNbgBmPRy
 Tags:  keynote, powerpoint, ppt, presentation, presentations, slide shows, speakerdeck
 Requires at least: 4.4
 Tested up to: 4.7.2
-Stable tag: 0.1.4
+Stable tag: 0.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,9 +14,13 @@ Responsive iframe for embed slideshow.
 
 Responsive iframe for embed slideshow.
 
+[This Plugin published on GitHub.](https://github.com/torounit/respinsive-slide)
+
+Donation: Please send [bitcoin](https://blockchain.info/ja/address/3HwkojX2pd9wc5kPFdXnDXMTNbgBmPRygX) or [My Wishlist](http://www.amazon.co.jp/registry/wishlist/COKSXS25MVQV)
+
 === Support ===
 
-* Speaker Deck.
+* [Speaker Deck](https://speakerdeck.com).
 
 == Installation ==
 
@@ -26,6 +30,9 @@ Responsive iframe for embed slideshow.
 * Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 0.1.5 =
+* Update readme.
 
 = 0.1.4 =
 * Release on WP.org.

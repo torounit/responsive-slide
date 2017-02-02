@@ -7,7 +7,7 @@
  * Author URI:      https://torounit.com
  * Text Domain:     responsive-slide
  * Domain Path:     /languages
- * Version:         0.1.4
+ * Version:         0.1.5
  *
  * @package         Responsive_Slide
  */
