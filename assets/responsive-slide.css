@@ -1,7 +1,7 @@
-iframe[src*="speakerdeck.com"]::before {
-	content: "!!!";
+iframe[src*="speakerdeck.com"] {
+	width: 100%;
 }
 
-iframe[src*="speakerdeck.com"] {
-	max-width: 100%;
+iframe[src*="slideshare.net"] {
+	width: 100%;
 }

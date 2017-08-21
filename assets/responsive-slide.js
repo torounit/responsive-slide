@@ -1,32 +1,38 @@
 (function ($) {
 
-	var playerHeaderHeight = 26,
-		playerFooterHeight = 35
 
-	function setHeight() {
-		$('iframe[src*="speakerdeck.com"]').each(function () {
-			var $this = $(this),
-				ratio = $this.attr('data-ratio');
+	function Slide( selector , offset ) {
 
-			if (!ratio) {
-				var width = parseInt($this.attr('width')),
-					height = parseInt($this.attr('height')) - playerHeaderHeight - playerFooterHeight;
-				if (width && height) {
-					ratio = width / height;
-					$this.attr('data-ratio', ratio);
+		function setHeight() {
+			$(selector).each(function () {
+				var $this = $(this),
+					ratio = $this.attr('data-ratio');
+
+				if (!ratio) {
+					var width = parseInt($this.attr('width')),
+						height = parseInt($this.attr('height')) - offset;
+					if (width && height) {
+						ratio = width / height;
+						$this.attr('data-ratio', ratio);
+					}
 				}
-			}
-			$this.height(( $this.width() / ratio ) + playerHeaderHeight + playerFooterHeight);
-		})
-	}
+				$this.height(( $this.width() / ratio ) + offset);
+			})
+		}
+		setHeight();
+
+		$(window).on('resize', function () {
+			setHeight();
+		});
+	};
 
 	$(function () {
-		setHeight();
-	})
-
-	$(window).on('resize', function () {
-		setHeight();
+		var speakerDeckHeaderHeight = 26,
+			speakerDeckFooterHeight = 35;
+		var speakerdeck = Slide( 'iframe[src*="speakerdeck.com"]', speakerDeckHeaderHeight + speakerDeckFooterHeight);
+		var slideshare = Slide( 'iframe[src*="slideshare.net"]', 38);
 	});
+
 
 
 }(jQuery));
