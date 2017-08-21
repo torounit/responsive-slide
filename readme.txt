@@ -1,6 +1,6 @@
 === Responsive Slide ===
 Contributors: Toro_Unit, spicagraph
-Donate link: https://blockchain.info/ja/address/3HwkojX2pd9wc5kPFdXnDXMTNbgBmPRygX
+Donate link: http://www.amazon.co.jp/registry/wishlist/COKSXS25MVQV
 Tags:  keynote, powerpoint, ppt, presentation, presentations, slide shows, speakerdeck
 Requires at least: 4.4
 Tested up to: 4.8
@@ -27,7 +27,7 @@ Donation: Please send [bitcoin](https://blockchain.info/ja/address/3HwkojX2pd9wc
 === Support ===
 
 * [Speaker Deck](https://speakerdeck.com)
-* [SlideShare](https://www.slideshare.net/)
+* [SlideShare](https://www.slideshare.net)
 
 == Installation ==
 

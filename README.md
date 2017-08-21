@@ -10,7 +10,8 @@ Responsive iframe for embed slideshow.
 
 ### Support
 
-* [Speaker Deck](https://speakerdeck.com).
+* [Speaker Deck](https://speakerdeck.com)
+* [SlideShare](https://www.slideshare.net)
 
 ## Installation 
 
@@ -20,6 +21,9 @@ Responsive iframe for embed slideshow.
 * Activate the plugin through the 'Plugins' menu in WordPress.
 
 ## Changelog 
+
+### 1.0.0
+* Add Support Slideshare.
 
 ### 0.1.7
 * Add Cover Image.
